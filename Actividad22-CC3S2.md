@@ -99,6 +99,10 @@
 
    * `mediator.py` con comentarios.
    * Breve comparación entre mediador y facade.
+   
+   * **Resolución**
+   - El script `mediator.py` se encuentra en `Patrones_dependencias_infraestructura/mediator`
+   - Facade es un patrón de diseño en el que se provee de una interfaz simple a un conjunto complejo de clases. Su objetivo es similar al de Mediator, el de simplificar las relaciones entre clases, pero con propósitos diferentes. Facade solo provee una interfaz a estos objetos o clases complicados, estas clases no tienen conocimiento de la clase Facade. En cambio, Mediator participa activamente en la relación entre estos objetos: cada uno de estos solo puede comunicar entre si a través de Mediator.
 
 #### Fase 6: Elección de patrón
 

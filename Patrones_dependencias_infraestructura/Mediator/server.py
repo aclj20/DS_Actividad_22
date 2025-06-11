@@ -18,3 +18,8 @@ class ServerFactoryModule:
 
     def outputs(self):
         return DependsOn("null_resource", "server", {"name": "hello-world-server"})
+
+# Fase 5
+# Método que simula el estado de Server
+def check_server_status():
+    return {"status": "active", "ip": "192.168.0.1"}

@@ -18,3 +18,8 @@ class FirewallFactoryModule:
 
     def outputs(self):
         return DependsOn("null_resource", "firewall", {"port": "22"})
+
+# Fase 5
+# Método que simula el estado de Network
+def check_firewall_status():
+    return {"status": "active", "port": "22"}
